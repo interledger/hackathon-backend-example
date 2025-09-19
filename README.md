@@ -6,10 +6,7 @@ This repository can be use as an example backend, based on Express.js (https://e
 ### The backend is necessary for the grant:
 > https://openpayments.dev/apis/auth-server/operations/post-request/
 
-
 ![Callback](./doc/img/callback.png "Callback")
-
-
 
 ## Install the correct Node version
 #### Manually
@@ -42,7 +39,7 @@ npm run build
 
 ## Start the backend service
 ```
-npm run build
+npm run start
 ```
 
 ## Examples
@@ -97,6 +94,11 @@ Aquí tienes la traducción al español de las instrucciones:
 
 Este repositorio puede usarse como un ejemplo de backend, basado en Express.js.
 
+### El backend es necesario para la grant:
+> https://openpayments.dev/apis/auth-server/operations/post-request/
+
+![Callback](./doc/img/callback.png "Callback")
+
 ## Instalar la versión correcta de Node
 
 #### Manualmente
@@ -133,7 +135,7 @@ npm run build
 ## Iniciar el servicio backend
 
 ```
-npm run build
+npm run start
 ```
 
 ## Ejemplos
