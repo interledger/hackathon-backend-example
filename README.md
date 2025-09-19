@@ -1,7 +1,15 @@
 # English
 
 ##  Hackathon's Backend Example
-This repository can be use as an example backend, based on Express.js
+This repository can be use as an example backend, based on Express.js (https://expressjs.com/)
+
+### The backend is necessary for the grant:
+> https://openpayments.dev/apis/auth-server/operations/post-request/
+
+
+![Callback](./doc/img/callback.png "Callback")
+
+
 
 ## Install the correct Node version
 #### Manually
