@@ -16,7 +16,7 @@ https://nodejs.org/en
 #### Using NVM
 If you don't already have Node.js v24 installed, you can use NVM to install it
 
-Folle these instructions: 
+Follow these instructions: 
 https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
 
 Once NVM is installed, run this in the directory of the project (where the .nvmrc is)
