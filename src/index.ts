@@ -45,7 +45,7 @@ app.get("/example_params", (req:express.Request, res:express.Response) => {
 
 // Example of POST request
 // call like: POST http://localhost:3000/example_post
-// a body object must be included and
+// a body object must be included and a "content-type" header with value "application/json" included
 app.post("/example_post", (req:express.Request, res:express.Response) => {
     //extract body object
     const inputBodyObj = req.body;
@@ -60,7 +60,7 @@ app.post("/example_post", (req:express.Request, res:express.Response) => {
 app.use((req:express.Request, res:express.Response)=> {
     res.status(404).send("Not Found");
     return;
-})
+});
 
 // Start the server listening on TCP port defined by LISTEN_PORT
 app.listen(LISTEN_PORT, (error?: Error) => {
